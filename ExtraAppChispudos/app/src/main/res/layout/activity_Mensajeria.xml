@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnEnviarMensaje"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@android:color/primary_text_dark"
+    tools:context=".Mensajeria">
+
+    <TextView
+        android:id="@+id/tTituloMensajeria"
+        android:layout_width="167dp"
+        android:layout_height="66dp"
+        android:autoText="false"
+        android:background="#57F4F5F6"
+        android:capitalize="words"
+        android:text="Mensajería"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="213dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="528dp"
+        android:text="Enviar mensaje"
+        android:textColor="#EB2196F3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tTituloMensajeria"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+            android:id="@+id/btnVerMensajes"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="190dp"
+            android:layout_height="49dp"
+            android:text="Ver mensajes"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.447"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintVertical_bias="0.098"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

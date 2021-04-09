@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "892089944807",
+    "firebase_url": "https://mensajeria314-3dd66.firebaseio.com",
+    "project_id": "mensajeria314-3dd66",
+    "storage_bucket": "mensajeria314-3dd66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892089944807:android:43271c776950e8c507f042",
+        "android_client_info": {
+          "package_name": "com.example.mensajeria314"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892089944807-co96gpa9b9mgii1m17mtlqdor5hembd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMuh4xEcyRkrZ9X_Hguoayb8iNEIyfgiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892089944807-co96gpa9b9mgii1m17mtlqdor5hembd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
